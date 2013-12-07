@@ -6,7 +6,7 @@
 # catalog-version 1.2.1
 Name:		texlive-udesoftec
 Version:	1.2.1
-Release:	2
+Release:	3
 Summary:	Thesis class for the University of Duisburg-Essen
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/udesoftec
