@@ -1,12 +1,12 @@
-# revision 33154
+# revision 34036
 # category Package
 # catalog-ctan /macros/latex/contrib/udesoftec
-# catalog-date 2014-03-11 18:51:00 +0100
+# catalog-date 2014-04-30 17:12:10 +0200
 # catalog-license lppl
-# catalog-version 1.3.3
+# catalog-version 1.3.7
 Name:		texlive-udesoftec
-Version:	1.3.3
-Release:	2
+Version:	1.3.7
+Release:	1
 Summary:	Thesis class for the University of Duisburg-Essen
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/udesoftec
