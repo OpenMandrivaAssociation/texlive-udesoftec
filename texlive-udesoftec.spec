@@ -1,12 +1,6 @@
-# revision 34036
-# category Package
-# catalog-ctan /macros/latex/contrib/udesoftec
-# catalog-date 2014-04-30 17:12:10 +0200
-# catalog-license lppl
-# catalog-version 1.3.7
 Name:		texlive-udesoftec
-Version:	1.3.7
-Release:	4
+Version:	1.6.0
+Release:	1
 Summary:	Thesis class for the University of Duisburg-Essen
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/udesoftec
@@ -36,21 +30,11 @@ assumed.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/bibtex/bst/udesoftec/udesoftec.bst
-%{_texmfdistdir}/tex/latex/udesoftec/udesoftec-cover-uba.pdf
-%{_texmfdistdir}/tex/latex/udesoftec/udesoftec-cover-ude-de.pdf
-%{_texmfdistdir}/tex/latex/udesoftec/udesoftec-cover-ude-en.pdf
-%{_texmfdistdir}/tex/latex/udesoftec/udesoftec-extra.sty
-%{_texmfdistdir}/tex/latex/udesoftec/udesoftec.cls
-%doc %{_texmfdistdir}/doc/latex/udesoftec/udesoftec-doc.pdf
+%{_texmfdistdir}/bibtex/bst/udesoftec
+%{_texmfdistdir}/tex/latex/udesoftec
+%doc %{_texmfdistdir}/doc/latex/udesoftec
 #- source
-%doc %{_texmfdistdir}/source/latex/udesoftec/CHANGELOG
-%doc %{_texmfdistdir}/source/latex/udesoftec/README
-%doc %{_texmfdistdir}/source/latex/udesoftec/UPDATE-INSTRUCTIONS
-%doc %{_texmfdistdir}/source/latex/udesoftec/VERSION
-%doc %{_texmfdistdir}/source/latex/udesoftec/udesoftec-doc-examplebib.bib
-%doc %{_texmfdistdir}/source/latex/udesoftec/udesoftec-doc-exampleimage.pdf
-%doc %{_texmfdistdir}/source/latex/udesoftec/udesoftec-doc.tex
+%doc %{_texmfdistdir}/source/latex/udesoftec
 
 #-----------------------------------------------------------------------
 %prep
