@@ -1,5 +1,5 @@
 Name:		texlive-udesoftec
-Version:	1.6.0
+Version:	1.6.2
 Release:	1
 Summary:	Thesis class for the University of Duisburg-Essen
 Group:		Publishing
