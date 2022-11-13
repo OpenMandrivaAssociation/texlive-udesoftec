@@ -1,13 +1,13 @@
 Name:		texlive-udesoftec
-Version:	1.6.2
-Release:	2
+Version:	57866
+Release:	1
 Summary:	Thesis class for the University of Duisburg-Essen
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/udesoftec
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/udesoftec.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/udesoftec.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/udesoftec.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/udesoftec.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/udesoftec.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/udesoftec.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ is designed for use with pdfLaTeX; input in UTF-8 encoding is
 assumed.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -38,7 +38,8 @@ assumed.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
