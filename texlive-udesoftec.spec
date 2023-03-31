@@ -1,6 +1,6 @@
 Name:		texlive-udesoftec
 Version:	57866
-Release:	1
+Release:	2
 Summary:	Thesis class for the University of Duisburg-Essen
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/udesoftec
