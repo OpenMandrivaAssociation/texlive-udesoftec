@@ -3,7 +3,7 @@ Version:	57866
 Release:	2
 Summary:	Thesis class for the University of Duisburg-Essen
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/udesoftec
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/udesoftec
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/udesoftec.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/udesoftec.doc.r%{version}.tar.xz
